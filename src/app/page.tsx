@@ -81,9 +81,11 @@ export default function Home() {
       <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
         <CustomButton/>
         <h1 className='max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl'>
-          Chat with your{' '}
-          <span className='text-green-500'>documents</span>{' '}
-          in seconds.
+          Order your {' '}
+          <span className='text-green-500'>protein</span>{' '}
+          and{' '}
+          <span className='text-green-500'>supplements</span>{' '}
+          onlne in seconds.
         </h1>
         <p className='mt-5 max-w-prose text-zinc-700 sm:text-lg'>
           GodDocs allows you to have conversations with any
