@@ -1,5 +1,5 @@
 import Navbar from '@/components/Navbar'
-import Providers from '@/components/Providers'
+
 import { cn, constructMetadata } from '@/lib/utils'
 import { Inter } from 'next/font/google'
 import './globals.css'
@@ -20,7 +20,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en' className='light'>
-      <Providers>
         <body
           className={cn(
             'min-h-screen font-sans antialiased grainy',
@@ -30,7 +29,6 @@ export default function RootLayout({
           <Navbar />
           {children}
         </body>
-      </Providers>
     </html>
   )
 }
