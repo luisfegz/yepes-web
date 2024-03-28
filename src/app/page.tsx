@@ -85,7 +85,7 @@ export default function Home() {
           <span className='text-green-500'>protein</span>{' '}
           and{' '}
           <span className='text-green-500'>supplements</span>{' '}
-          onlne in seconds.
+          online in seconds.
         </h1>
         <p className='mt-5 max-w-prose text-zinc-700 sm:text-lg'>
           GodDocs allows you to have conversations with any
