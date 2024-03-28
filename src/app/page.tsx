@@ -88,9 +88,8 @@ export default function Home() {
           online in seconds.
         </h1>
         <p className='mt-5 max-w-prose text-zinc-700 sm:text-lg'>
-          GodDocs allows you to have conversations with any
-          PDF document. Simply upload your file and start
-          asking questions right away.
+          ProteinExpress allows you to have the best protein and supplements.
+          Simple as select a product and order in a couple of seconds.
         </p>
 
         
@@ -103,11 +102,11 @@ export default function Home() {
         <div className='mb-12 px-6 lg:px-8'>
           <div className='mx-auto max-w-2xl sm:text-center'>
             <h2 className='mt-2 font-bold text-4xl text-gray-900 sm:text-5xl'>
-              Start chatting in minutes
+              Start your fitness life 
             </h2>
             <p className='mt-4 text-lg text-gray-600'>
-              Chatting to your PDF files has never been
-              easier than with GodDocs.
+                  Our selected products could help you to
+                  increase your results.
             </p>
           </div>
         </div>
