@@ -9,6 +9,9 @@ import 'simplebar-react/dist/simplebar.min.css'
 
 import { Toaster } from '@/components/ui/toaster'
 
+import WhatsappLink from '@/components/WhatsappLink';
+
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = constructMetadata()
@@ -26,9 +29,11 @@ export default function RootLayout({
             inter.className
           )}>
           <Toaster />
+          <WhatsappLink />
           <Navbar />
           {children}
         </body>
+        
     </html>
   )
 }

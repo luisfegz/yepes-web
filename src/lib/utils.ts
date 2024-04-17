@@ -16,8 +16,8 @@ export function absoluteUrl(path: string) {
 }
 
 export function constructMetadata({
-  title = "ProteinExpress",
-  description = "Order protein online with free shipping",
+  title = "Yepes - website",
+  description = "IOT",
   image = "/thumbnail.png",
   icons = "/favicon.ico",
   noIndex = false
